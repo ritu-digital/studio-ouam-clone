@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-moderat-regular: 'Moderat-Regular';
+  --font-moderat-thin: 'Moderat-Thin';
+  --font-saol: 'SaolDisplay-Semibold';
+  --font-sharp: 'SharpGroteskBold25';
+  --c-white: #fff;
+  --c-black: #000;
+  --c-grey: #232323;
+  --c-dark: #141414;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  /* overflow-x: hidden; */
+  overflow-x: hidden;
+}

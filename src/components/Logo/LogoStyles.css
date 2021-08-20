@@ -1,0 +1,35 @@
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-left: 0;
+  width: 80%;
+  max-width: 144px;
+  text-decoration: none;
+  color: white;
+}
+.logo__eye {
+  height: 17px;
+  width: auto;
+}
+
+@media screen and (max-width: 769px) {
+  .logo > img:nth-of-type(1) {
+    display: none;
+  }
+  .logo > img:nth-of-type(2) {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    transform: scale(0.9);
+  }
+  /* .logo__eye:hover {
+    transform: scale(0.9);
+  } */
+  /* .logo__eye {
+    transform: scale(2);
+  }
+  .eyeLogo__blanc {
+    transform: scaleY(0.7);
+    transform-origin: center center;
+  } */
+}
